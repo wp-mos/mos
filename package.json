@@ -1,0 +1,26 @@
+{
+  "name": "wp-mos-theme",
+  "version": "1.0.0",
+  "description": "b&m careers theme",
+  "scripts": {
+    "js:index": "wp-scripts start --output-path=assets/scripts",
+    "style:front": "npx sass -w --style=compressed src/styles/front.scss:assets/styles/front.css --no-source-map",
+    "style:editor": "npx sass -w --style=compressed src/styles/editor.scss:assets/styles/styles.css --no-source-map",
+    "start": "npm-run-all --parallel js:index style:front style:editor"
+  },
+  "homepage": "https://github.com/WagadaDigital/wp-bm-theme#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WagadaDigital/wp-bm-theme.git"
+  },
+  "author": "Marius P.",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.11.4"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^25.2.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.57.1"
+  }
+}

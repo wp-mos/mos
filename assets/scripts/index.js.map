@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","mappings":";;;;;AAAAA,QAAQ,CAACC,gBAAgB,CAAC,kBAAkB,EAAE,MAAM,CAAC,CAAC,CAAC,C","sources":["webpack://wp-mos-theme/./src/index.js"],"sourcesContent":["document.addEventListener(\"DOMContentLoaded\", () => {});\n"],"names":["document","addEventListener"],"sourceRoot":""}
