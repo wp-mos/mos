@@ -1,0 +1,175 @@
+.woocommerce {
+  display: flex;
+  align-items: flex-start;
+  padding: 3rem;
+  background-color: #f9f7f1;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.woocommerce-notices-wrapper,
+.woocommerce-form-coupon-toggle,
+#customer_details .dropdown-wrapper,
+#customer_details .woocommerce-additional-fields {
+  display: none;
+}
+
+.woocommerce h3 {
+  font-size: var(--wp--preset--font-size--title-small);
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--wp--preset--color--on-surface);
+}
+
+#customer_details .form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 0;
+  width: 100%;
+}
+
+#customer_details .form-row label {
+  font-size: var(--wp--preset--font-size--body-small);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--wp--preset--color--on-surface);
+  margin: 0 !important;
+}
+
+#customer_details .form-row input,
+.woocommerce-page .select2-container .select2-dropdown .select2-search__field {
+  min-width: 0;
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-radius: 0;
+  background: none;
+  background-color: rgba(0, 0, 0, 0);
+  appearance: none;
+  padding: 0;
+  outline: rgba(0, 0, 0, 0);
+  background-color: #fafafa;
+  border-radius: 6px 6px 0 0;
+  border-bottom: 2px solid var(--wp--preset--color--primary-container);
+  background-color: var(--wp--preset--color--surface);
+  font-size: var(--wp--preset--font-size--body-large);
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+
+.woocommerce-page .select2-container .select2-dropdown .select2-search__field {
+  border-radius: 6px;
+  border: 2px solid var(--wp--preset--color--primary-container);
+}
+
+#customer_details .form-row input:focus {
+  border-bottom: 2px solid var(--wp--preset--color--primary);
+}
+
+#customer_details .select2-selection {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  border: 2px solid var(--wp--preset--color--primary-container);
+  background-color: var(--wp--preset--color--surface);
+  font-size: var(--wp--preset--font-size--body-large);
+  line-height: 1.5rem;
+  padding: 0.375rem;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+.select2-dropdown {
+  border: 2px solid var(--wp--preset--color--primary-container) !important;
+  background-color: var(--wp--preset--color--surface) !important;
+  font-size: var(--wp--preset--font-size--body-large) !important;
+  border-radius: 6px;
+  background-color: #fafafa;
+  position: absolute;
+  left: -100000px;
+  width: 100%;
+  z-index: 1051;
+}
+
+#place_order {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  font-family: var(--wp--preset--font-family--sans);
+  font-size: var(--wp--preset--font-size--body-medium);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  border-radius: 6px;
+  border-style: none;
+  padding: 0.25rem 0.75rem;
+  text-align: center;
+  background-color: var(--wp--preset--color--primary) !important;
+  color: var(--wp--preset--color--on-surface) !important;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  background-color: var(--wp--preset--color--on-surface);
+  color: var(--wp--preset--color--surface);
+  max-height: 2.5rem;
+}
+
+#place_order:hover {
+  background-color: var(--wp--preset--color--on-surface) !important;
+  color: var(--wp--preset--color--surface) !important;
+}
+
+.woocommerce-checkout-payment {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: transparent !important;
+  border-radius: 6px;
+  width: 100%;
+}
+
+#add_payment_method #payment ul.payment_methods,
+.woocommerce-cart #payment ul.payment_methods,
+.woocommerce-checkout #payment ul.payment_methods {
+  border-bottom: 0;
+}
+
+.payment_box.payment_method_stripe {
+  border-radius: 6px;
+  background-color: var(--wp--preset--color--surface) !important;
+}
+
+.woocommerce-checkout #payment div.payment_box::before {
+  border: 1em solid var(--wp--preset--color--surface);
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+.woocommerce-checkout #payment div.payment_box {
+  border-radius: 6px;
+}
+
+.woocommerce fieldset:last-child {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+#stripe-card-element {
+  min-width: 360px;
+}
+
+#stripe-exp-element,
+#stripe-cvc-element {
+  min-width: 120px;
+}
