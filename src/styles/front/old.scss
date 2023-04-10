@@ -138,14 +138,14 @@ a.animated-link:hover::after {
   background-color: var(--wp--preset--color--primary);
   color: var(--wp--preset--color--on-surface);
   transition-property: color, background-color, border-color,
-    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
-    -webkit-backdrop-filter;
+  text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+  -webkit-backdrop-filter;
   transition-property: color, background-color, border-color,
-    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
-    backdrop-filter;
+  text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+  backdrop-filter;
   transition-property: color, background-color, border-color,
-    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
-    backdrop-filter, -webkit-backdrop-filter;
+  text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+  backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
   -webkit-appearance: none;
@@ -546,7 +546,7 @@ body.admin-bar .mos-header {
   grid-area: 2/2/5/5;
   background-color: var(--wp--preset--color--surface);
   box-shadow: rgba(0, 0, 0, 0.03) 0 1px 0, rgba(0, 0, 0, 0.06) 0 3px 6px,
-    rgba(0, 0, 0, 0.06) 0 12px 21px;
+  rgba(0, 0, 0, 0.06) 0 12px 21px;
   border-radius: 0.375rem;
   padding: 1.5rem;
   z-index: 9;
@@ -803,7 +803,7 @@ body.admin-bar .mos-header {
   grid-area: 2/2/5/5;
   background-color: var(--wp--preset--color--surface);
   box-shadow: rgba(0, 0, 0, 0.03) 0 1px 0, rgba(0, 0, 0, 0.06) 0 3px 6px,
-    rgba(0, 0, 0, 0.06) 0 12px 21px;
+  rgba(0, 0, 0, 0.06) 0 12px 21px;
   border-radius: 0.375rem;
   padding: 3rem;
   display: flex;
@@ -1089,7 +1089,7 @@ body.admin-bar .mos-header {
   background-color: var(--wp--preset--color--surface);
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.03) 0 1px 0, rgba(0, 0, 0, 0.06) 0 3px 6px,
-    rgba(0, 0, 0, 0.06) 0 12px 21px;
+  rgba(0, 0, 0, 0.06) 0 12px 21px;
 }
 
 .mos-testimoniale-quote {
@@ -1739,7 +1739,7 @@ body.admin-bar .mos-header {
   border-radius: 0.375rem;
   background-color: var(--wp--preset--color--surface);
   box-shadow: rgba(0, 0, 0, 0.03) 0 1px 0, rgba(0, 0, 0, 0.06) 0 3px 6px,
-    rgba(0, 0, 0, 0.06) 0 12px 21px;
+  rgba(0, 0, 0, 0.06) 0 12px 21px;
 }
 
 .mos-contact .wp-block-contact-form-7-contact-form-selector {
@@ -1998,7 +1998,7 @@ body.admin-bar .mos-header {
   padding: 3rem;
   background-color: #f9f7f1;
   border-radius: 6px;
-  width: 72%;
+  width: 906px;
 }
 
 .login-form,
@@ -2241,8 +2241,8 @@ body.admin-bar .mos-header {
 .order-form-close button svg {
   stroke: var(--wp--preset--color--on-primary-container);
   transition-property: color, background-color, border-color,
-    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
-    backdrop-filter, -webkit-backdrop-filter;
+  text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+  backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -2250,8 +2250,8 @@ body.admin-bar .mos-header {
 .order-form-close button:hover {
   background-color: var(--wp--preset--color--on-primary);
   transition-property: color, background-color, border-color,
-    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
-    backdrop-filter, -webkit-backdrop-filter;
+  text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+  backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
