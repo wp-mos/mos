@@ -71,45 +71,45 @@ document.addEventListener("DOMContentLoaded", () => {
 
   playSlide(currentSlide);
 
-  // keyboard shortcuts
-  document.addEventListener("keyup", function (e) {
-    switch (e.keyCode) {
-      case 37:
-        testimLeftArrow.click();
-        break;
-
-      case 39:
-        testimRightArrow.click();
-        break;
-
-      case 39:
-        testimRightArrow.click();
-        break;
-
-      default:
-        break;
-    }
-  });
-
-  testim.addEventListener("touchstart", function (e) {
-    touchStartPos = e.changedTouches[0].clientX;
-  });
-
-  testim.addEventListener("touchend", function (e) {
-    touchEndPos = e.changedTouches[0].clientX;
-
-    touchPosDiff = touchStartPos - touchEndPos;
-
-    console.log(touchPosDiff);
-    console.log(touchStartPos);
-    console.log(touchEndPos);
-
-    if (touchPosDiff > 0 + ignoreTouch) {
-      testimLeftArrow.click();
-    } else if (touchPosDiff < 0 - ignoreTouch) {
-      testimRightArrow.click();
-    } else {
-      return;
-    }
-  });
+  // // keyboard shortcuts
+  // document.addEventListener("keyup", function (e) {
+  //   switch (e.keyCode) {
+  //     case 37:
+  //       testimLeftArrow.click();
+  //       break;
+  //
+  //     case 39:
+  //       testimRightArrow.click();
+  //       break;
+  //
+  //     case 39:
+  //       testimRightArrow.click();
+  //       break;
+  //
+  //     default:
+  //       break;
+  //   }
+  // });
+  //
+  // testim.addEventListener("touchstart", function (e) {
+  //   touchStartPos = e.changedTouches[0].clientX;
+  // });
+  //
+  // testim.addEventListener("touchend", function (e) {
+  //   touchEndPos = e.changedTouches[0].clientX;
+  //
+  //   touchPosDiff = touchStartPos - touchEndPos;
+  //
+  //   console.log(touchPosDiff);
+  //   console.log(touchStartPos);
+  //   console.log(touchEndPos);
+  //
+  //   if (touchPosDiff > 0 + ignoreTouch) {
+  //     testimLeftArrow.click();
+  //   } else if (touchPosDiff < 0 - ignoreTouch) {
+  //     testimRightArrow.click();
+  //   } else {
+  //     return;
+  //   }
+  // });
 });
