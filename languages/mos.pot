@@ -1,0 +1,157 @@
+# Copyright (C) 2023 Harpoon Team
+# This file is distributed under the .
+msgid ""
+msgstr ""
+"Project-Id-Version: Mos Design 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/mos\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-10T07:09:32+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: mos\n"
+
+#. Theme Name of the theme
+msgid "Mos Design"
+msgstr ""
+
+#. Author of the theme
+msgid "Harpoon Team"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.harpoon.ro"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "On Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary Container"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "On Primary Container"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "On Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary Container"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "On Secondary Container"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Surface"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "On Surface"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Surface Variant"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "On Surface Variant"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Monospace"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Body Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Body Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Body Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Title Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Title Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Title Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Headline Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Headline Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Headline Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Display Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Display Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Display Large"
+msgstr ""
