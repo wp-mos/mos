@@ -2097,11 +2097,12 @@ body.admin-bar .mos-header {
 
 .order-form-group {
   display: flex;
+  flex-direction: column;
   padding: 1rem;
   gap: 1rem;
   border-radius: 6px;
   background-color: #f9f7f1;
-  width: 100%;
+  width: calc(100% - 2rem)
 }
 
 .order-form-block {
@@ -2109,6 +2110,7 @@ body.admin-bar .mos-header {
   flex-direction: column;
   gap: 0.25rem;
 }
+
 
 .order-form-block-status {
   display: flex;
@@ -2139,20 +2141,20 @@ body.admin-bar .mos-header {
 }
 
 .order-form-block-file {
-  width: 15%;
+  width: 100%;
 }
 
 .order-form-block-35 {
-  width: 55%;
+  width: 100%;
   flex-grow: 1;
 }
 
 .order-form-block-20 {
-  width: 20%;
+  width: 100%;
 }
 
 .order-form-block-10 {
-  width: 10%;
+  width: 100%;
 }
 
 .order-form-input:focus {
@@ -2261,5 +2263,41 @@ body.admin-bar .mos-header {
 }
 
 .mos-order {
-  margin-top: -15rem !important;
+  margin-top: -21rem !important;
+}
+
+a[href^="mailto:"] {
+  color: var(--wp--preset--color--on-surface-variant);
+  text-decoration: underline;
+}
+
+a[href^="mailto:"]:hover {
+  color: var(--wp--preset--color--on-primary);
+}
+
+@media (min-width: 906px) {
+  .order-form-group {
+    flex-direction: row;
+  }
+
+  .order-form-block-file {
+    width: 15%;
+  }
+
+  .order-form-block-35 {
+    width: 55%;
+    flex-grow: 1;
+  }
+
+  .order-form-block-20 {
+    width: 20%;
+  }
+
+  .order-form-block-10 {
+    width: 10%;
+  }
+}
+
+.mos-auth-user-content {
+  padding-inline: var(--wp--custom--spacing--p-x);
 }
