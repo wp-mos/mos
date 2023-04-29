@@ -186,3 +186,35 @@
 .form-row.place-order {
   gap: 0 !important;
 }
+
+.woocommerce {
+  width: calc(100% - 6rem);
+  padding-inline: var(--wp--custom--spacing--p-x);
+}
+
+#place_order {
+  padding: 1rem 1.5rem;
+  min-height: 48px;
+}
+
+#customer_details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.woocommerce a {
+  color: var(--wp--preset--color--on-surface-variant);
+  text-decoration: underline;
+}
+
+.woocommerce a:hover {
+  color: var(--wp--preset--color--on-primary);
+}
+
+@media (min-width: 906px) {
+  #customer_details {
+    display: flex;
+    flex-direction: row;
+  }
+}

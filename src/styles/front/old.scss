@@ -352,9 +352,10 @@ select.form-select {
 
 .mos-header-button a {
   border-width: 1px !important;
-  padding: 0.5rem 1rem !important;
+  padding: 0.875rem 1.5rem !important;
   transition: all 0.2s;
-  font-size: var(--wp--preset--font-size--body-small) !important;
+  font-size: var(--wp--preset--font-size--body-medium) !important;
+  font-weight: 500;
   opacity: 1;
 }
 
@@ -1998,7 +1999,7 @@ body.admin-bar .mos-header {
   padding: 3rem;
   background-color: #f9f7f1;
   border-radius: 6px;
-  width: 906px;
+  width: calc(100% - 6rem);
 }
 
 .login-form,
@@ -2296,8 +2297,29 @@ a[href^="mailto:"]:hover {
   .order-form-block-10 {
     width: 10%;
   }
+
+  .wp-block-mos-login-form,
+  .wp-block-mos-register-form {
+    width: 906px;
+  }
 }
 
 .mos-auth-user-content {
+  padding-inline: var(--wp--custom--spacing--p-x);
+}
+
+#mos-submit-form {
+  padding: 1rem 1.5rem;
+  font-size: var(--wp--preset--font-size--body-medium);
+  font-weight: 500;
+}
+
+#order-form-total-price {
+  font-size: var(--wp--preset--font-size--title-small);
+  font-weight: 700;
+  color: var(--wp--preset--color--on-surface-variant);
+}
+
+.mos-padding {
   padding-inline: var(--wp--custom--spacing--p-x);
 }
