@@ -491,9 +491,6 @@ body.admin-bar .mos-header {
   }
 }
 
-.mos-order-block {
-  margin-top: -12vh;
-}
 
 .mos-order {
   position: relative;
@@ -2264,7 +2261,13 @@ body.admin-bar .mos-header {
 }
 
 .mos-order {
-  margin-top: -21rem !important;
+  margin-top: -15rem !important;
+}
+
+@media (min-height: 1024px) {
+  .mos-order {
+    margin-top: -21rem !important;
+  }
 }
 
 a[href^="mailto:"] {
